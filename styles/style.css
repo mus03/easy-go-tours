@@ -58,11 +58,14 @@ main {
   background-image: url("../Images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-width: 100%;
+  padding: 2rem;
 }
 .banner-description {
   text-align: center;
   padding: 5rem;
+  padding-bottom: 0;
 }
 .banner-description h3 {
   color: #fff;
@@ -83,20 +86,28 @@ main {
   max-width: 60%;
   margin: 2rem auto;
   padding: 1.5rem;
+  gap: 1rem;
 }
+
 .banner-input-field input,
-select,
-button {
+select {
   border-radius: 8px;
   background: #fff;
-  width: 15%;
+  width: 25%;
   padding: 1rem 0;
   border: none;
 }
+
 .banner-input-field button {
   background: var(--secondary-color);
   color: #fff;
+  border-radius: 8px;
+  width: 25%;
+
+  padding: 1rem 0;
+  border: none;
 }
+
 /* main style start */
 /* popular top start */
 .popular-tours {
@@ -427,7 +438,8 @@ footer {
   padding-top: 2rem;
 }
 .footer-logo {
-  margin: 0 40rem;
+  width: 14%;
+  margin: 0 auto;
 }
 .footer-logo a {
   color: var(--primary-color);

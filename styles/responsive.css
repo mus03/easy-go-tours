@@ -17,8 +17,10 @@
     place-items: center;
   }
   .banner-input-field input,
-  select,
-  button {
+  select {
+    width: 100%;
+  }
+  .banner-input-field button {
     width: 100%;
   }
   .popular-tours {
@@ -67,5 +69,13 @@
     max-width: 30%;
     margin: 2rem 9rem;
     padding: 1rem;
+  }
+  .footer-logo {
+    width: 50%;
+  }
+  .destination-description p,
+  .choose-desciption p,
+  .footer-description p {
+    max-width: 75%;
   }
 }
