@@ -18,17 +18,20 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.nav-title {
+.nav-title,
+.footer-title {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
-.nav-title h3 {
+.nav-title h3,
+.footer-title h3 {
   color: var(--primary-color);
   font-size: 2.25rem;
   font-weight: 800;
 }
-.nav-title h3 > span {
+.nav-title h3 > span,
+.footer-title h3 > span {
   color: var(--secondary-color);
 }
 .nav-list ul {
@@ -153,7 +156,8 @@ p {
   margin-bottom: 5px;
 }
 .destination-description p,
-.choose-desciption p {
+.choose-desciption p,
+.footer-description p {
   color: var(--paragragh-color);
   text-align: center;
   font-size: 1rem;
@@ -413,4 +417,25 @@ button {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
+}
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 3rem;
+}
+.footer-title {
+  justify-content: center;
+  padding-top: 2rem;
+}
+.footer-logo {
+  margin: 0 40rem;
+}
+.footer-logo a {
+  color: var(--primary-color);
+}
+.footer-logo i {
+  padding: 1rem;
+}
+footer p {
+  text-align: center;
+  padding: 2rem;
 }
