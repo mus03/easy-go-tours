@@ -63,7 +63,7 @@ main {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("Images/banner.png");
+    url("../Images/banner.png");
   /* background-image: url("../Images/banner.png"); */
   background-repeat: no-repeat;
   background-size: cover;
