@@ -63,4 +63,9 @@
   .choose-desciption p {
     width: 70%;
   }
+  .prime-description button {
+    max-width: 30%;
+    margin: 2rem 9rem;
+    padding: 1rem;
+  }
 }
