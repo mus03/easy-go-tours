@@ -7,6 +7,9 @@
   --paragragh-color: #424247;
   --secondary-color: #ff5400;
 }
+button:hover {
+  cursor: pointer;
+}
 /* header style start */
 header,
 main {
@@ -54,8 +57,14 @@ main {
   font-size: 1.125rem;
 }
 .banner-container {
-  border-radius: 16px;
-  background-image: url("../Images/banner.png");
+  border-radius: 1rem;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("/images/banner.png");
+  /* background-image: url("../Images/banner.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,6 +90,7 @@ main {
 .banner-input-field {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
   max-width: 60%;
@@ -360,7 +370,7 @@ p {
   font-weight: 400;
 }
 .newsletter-form input,
-button {
+.newsletter-form button {
   width: 100%;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -392,9 +402,12 @@ button {
   font-size: 1.25rem;
   font-weight: 800;
   position: absolute;
-  right: 1%;
-  top: 65%;
+  right: 2%;
+  top: 67%;
+  border: none;
+  border-radius: 0.5rem;
   transform: rotate(-26.628deg);
+  padding: 2rem;
 }
 .newsletter-image button p {
   font-size: 1.25rem;
@@ -422,13 +435,18 @@ button {
 }
 .prime-description button {
   max-width: 20%;
-  margin: 2rem 32rem;
+  margin: 2rem auto;
+  display: flex;
   background: var(--secondary-color);
   color: #fff;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
+
 footer {
   background: rgba(19, 19, 24, 0.05);
   margin-top: 3rem;
@@ -436,10 +454,16 @@ footer {
 .footer-title {
   justify-content: center;
   padding-top: 2rem;
+  margin-bottom: 0;
+}
+.footer-description {
+  padding-top: 0;
 }
 .footer-logo {
   width: 14%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-logo a {
   color: var(--primary-color);

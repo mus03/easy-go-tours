@@ -59,16 +59,17 @@
     max-width: 100%;
   }
   .newsletter-image button {
-    max-width: 50%;
-    top: 50%;
+    max-width: 40%;
+    height: auto;
+    top: 55%;
+    right: 2%;
+    padding: 0;
   }
   .choose-desciption p {
     width: 70%;
   }
   .prime-description button {
     max-width: 30%;
-    margin: 2rem 9rem;
-    padding: 1rem;
   }
   .footer-logo {
     width: 50%;
